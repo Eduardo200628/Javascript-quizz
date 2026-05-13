@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué lenguaje se usa para darle interactividad a una página web?",
+    "a": "HTML",
+    "b": "CSS",
+    "c": "JavaScript",
+    "d": "SQL",
+    "correctAnswer": "c"
+  },
+  {
+    "id": 2,
+    "question": "¿Qué etiqueta se usa para crear un enlace en HTML?",
+    "a": "<div>",
+    "b": "<a>",
+    "c": "<p>",
+    "d": "<img>",
+    "correctAnswer": "b"
+  },
+  {
+    "id": 3,
+    "question": "¿Qué propiedad de CSS cambia el color del texto?",
+    "a": "background",
+    "b": "font-size",
+    "c": "text-color",
+    "d": "color",
+    "correctAnswer": "d"
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo se declara una variable en JavaScript moderno?",
+    "a": "let",
+    "b": "variable",
+    "c": "string",
+    "d": "int",
+    "correctAnswer": "a"
+  },
+  {
+    "id": 5,
+    "question": "¿Qué método muestra mensajes en la consola?",
+    "a": "alert()",
+    "b": "prompt()",
+    "c": "console.log()",
+    "d": "print()",
+    "correctAnswer": "c"
+  },
+  {
+    "id": 6,
+    "question": "¿Qué símbolo se usa para comentarios de una línea en JavaScript?",
+    "a": "/* */",
+    "b": "//",
+    "c": "<!-- -->",
+    "d": "#",
+    "correctAnswer": "b"
+  },
+  {
+    "id": 7,
+    "question": "¿Qué operador compara igualdad estricta?",
+    "a": "=",
+    "b": "==",
+    "c": "===",
+    "d": "!=",
+    "correctAnswer": "c"
+  },
+  {
+    "id": 8,
+    "question": "¿Qué estructura repite código varias veces?",
+    "a": "if",
+    "b": "switch",
+    "c": "while",
+    "d": "return",
+    "correctAnswer": "c"
+  },
+  {
+    "id": 9,
+    "question": "¿Qué método agrega un elemento a un array?",
+    "a": "push()",
+    "b": "add()",
+    "c": "append()",
+    "d": "insert()",
+    "correctAnswer": "a"
+  },
+  {
+    "id": 10,
+    "question": "¿Qué significa CSS?",
+    "a": "Computer Style Sheets",
+    "b": "Creative Style System",
+    "c": "Cascading Style Sheets",
+    "d": "Colorful Style Syntax",
+    "correctAnswer": "c"
+  }
+]
