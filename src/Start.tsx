@@ -7,7 +7,7 @@ export const Start = () => {
   const fetchQuestions = useQuestionsStore(State => State.fetchQuestions)
 
 const handleClick = () => {
-  fetchQuestions(10);
+  fetchQuestions(limit_quetions);
 }
   return (
     <Button onClick={handleClick} variant="contained">
