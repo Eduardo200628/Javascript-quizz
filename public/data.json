@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Qué es JavaScript?",
+    "opciones": [
+      "Un lenguaje de programación",
+      "Una base de datos",
+      "Un sistema operativo",
+      "Un navegador"
+    ],
+    "respuestaCorrecta": "Un lenguaje de programación"
+  },
+  {
+    "pregunta": "¿Cómo se declara una variable que puede cambiar?",
+    "opciones": [
+      "const",
+      "let",
+      "fixed",
+      "varconst"
+    ],
+    "respuestaCorrecta": "let"
+  },
+  {
+    "pregunta": "¿Qué imprime console.log(typeof [])?",
+    "opciones": [
+      "array",
+      "list",
+      "object",
+      "undefined"
+    ],
+    "respuestaCorrecta": "object"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de 2 + '2'?",
+    "opciones": [
+      "4",
+      "22",
+      "NaN",
+      "undefined"
+    ],
+    "respuestaCorrecta": "22"
+  },
+  {
+    "pregunta": "¿Qué método se usa para recorrer un array?",
+    "opciones": [
+      "map()",
+      "push()",
+      "length()",
+      "value()"
+    ],
+    "respuestaCorrecta": "map()"
+  },
+  {
+    "pregunta": "¿Qué devuelve Boolean(0)?",
+    "opciones": [
+      "true",
+      "false",
+      "null",
+      "undefined"
+    ],
+    "respuestaCorrecta": "false"
+  },
+  {
+    "pregunta": "¿Cuál es la forma correcta de crear una función?",
+    "opciones": [
+      "function miFuncion() {}",
+      "create miFuncion() {}",
+      "func miFuncion() {}",
+      "new function miFuncion() {}"
+    ],
+    "respuestaCorrecta": "function miFuncion() {}"
+  },
+  {
+    "pregunta": "¿Qué operador compara valor y tipo?",
+    "opciones": [
+      "==",
+      "=",
+      "===",
+      "!="
+    ],
+    "respuestaCorrecta": "==="
+  },
+  {
+    "pregunta": "¿Qué método agrega un elemento al final de un array?",
+    "opciones": [
+      "shift()",
+      "push()",
+      "pop()",
+      "map()"
+    ],
+    "respuestaCorrecta": "push()"
+  },
+  {
+    "pregunta": "¿Qué palabra clave se usa para exportar algo en módulos ES6?",
+    "opciones": [
+      "send",     
+      "share",
+      "export",
+      "return"
+    ],
+    "respuestaCorrecta": "export"
+  }
+]
