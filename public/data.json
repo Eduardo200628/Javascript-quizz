@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "pregunta": "¿Qué es JavaScript?",
     "opciones": [
       "Un lenguaje de programación",
@@ -7,9 +8,10 @@
       "Un sistema operativo",
       "Un navegador"
     ],
-    "respuestaCorrecta": "Un lenguaje de programación"
+    "respuestaCorrecta": 0
   },
   {
+    "id": 2,
     "pregunta": "¿Cómo se declara una variable que puede cambiar?",
     "opciones": [
       "const",
@@ -17,9 +19,10 @@
       "fixed",
       "varconst"
     ],
-    "respuestaCorrecta": "let"
+    "respuestaCorrecta": 1
   },
   {
+    "id": 3,
     "pregunta": "¿Qué imprime console.log(typeof [])?",
     "opciones": [
       "array",
@@ -27,9 +30,10 @@
       "object",
       "undefined"
     ],
-    "respuestaCorrecta": "object"
+    "respuestaCorrecta": 2
   },
   {
+    "id": 4,
     "pregunta": "¿Cuál es el resultado de 2 + '2'?",
     "opciones": [
       "4",
@@ -37,9 +41,10 @@
       "NaN",
       "undefined"
     ],
-    "respuestaCorrecta": "22"
+    "respuestaCorrecta": 1
   },
   {
+    "id": 5,
     "pregunta": "¿Qué método se usa para recorrer un array?",
     "opciones": [
       "map()",
@@ -47,9 +52,10 @@
       "length()",
       "value()"
     ],
-    "respuestaCorrecta": "map()"
+    "respuestaCorrecta": 0
   },
   {
+    "id": 6,
     "pregunta": "¿Qué devuelve Boolean(0)?",
     "opciones": [
       "true",
@@ -57,9 +63,10 @@
       "null",
       "undefined"
     ],
-    "respuestaCorrecta": "false"
+    "respuestaCorrecta": 1
   },
   {
+    "id": 7,
     "pregunta": "¿Cuál es la forma correcta de crear una función?",
     "opciones": [
       "function miFuncion() {}",
@@ -67,9 +74,10 @@
       "func miFuncion() {}",
       "new function miFuncion() {}"
     ],
-    "respuestaCorrecta": "function miFuncion() {}"
+    "respuestaCorrecta": 0
   },
   {
+    "id": 8,
     "pregunta": "¿Qué operador compara valor y tipo?",
     "opciones": [
       "==",
@@ -77,9 +85,10 @@
       "===",
       "!="
     ],
-    "respuestaCorrecta": "==="
+    "respuestaCorrecta": 2
   },
   {
+    "id": 9,
     "pregunta": "¿Qué método agrega un elemento al final de un array?",
     "opciones": [
       "shift()",
@@ -87,16 +96,17 @@
       "pop()",
       "map()"
     ],
-    "respuestaCorrecta": "push()"
+    "respuestaCorrecta": 1
   },
   {
+    "id": 10,
     "pregunta": "¿Qué palabra clave se usa para exportar algo en módulos ES6?",
     "opciones": [
-      "send",     
+      "send",
       "share",
       "export",
       "return"
     ],
-    "respuestaCorrecta": "export"
+    "respuestaCorrecta": 2
   }
 ]

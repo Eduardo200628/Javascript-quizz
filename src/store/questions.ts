@@ -10,6 +10,7 @@ interface State {
   selectopcines: (QuestionId: number, opcionesIndex: number) => void;
   goNextQuestions: () => void;
   goPreviousQuestions: () => void;
+  reset: () => void;
 
 }
 
@@ -29,7 +30,6 @@ export const useQuestionsStore = create<State>()(devtools(persist((set, get) => 
 
     selectopcines: (QuestionId: number, opcionesIndex: number) => {
       const { questions } = get();
-      // usar el structuredClone para clonar el objeto
       const newQuestions = structuredClone(questions);
       const questionIndex = newQuestions.findIndex((q) => q.id == QuestionId);
       const questionInfo = newQuestions[questionIndex];
@@ -38,7 +38,6 @@ export const useQuestionsStore = create<State>()(devtools(persist((set, get) => 
         questionInfo.respuestaCorrecta == opcionesIndex;
         if (isCorrectUserAnswer) confetti()
 
-      // cambiar esta informacion en la copia de la pregunta
       newQuestions[questionIndex] = {
         ...questionInfo,
         isCorrectUserAnswer,

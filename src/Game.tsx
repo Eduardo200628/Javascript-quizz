@@ -14,28 +14,25 @@ import type { Question as QuestionType } from "./types";
 import { ArrowBackIosNew, ArrowForwardIos } from "@mui/icons-material";
 import { Footer } from "./Footer";
 
+const getBackgroundColor = ( Info: QuestionType, index: number) => {
+  const { userSelectedAnswer, respuestaCorrecta } = Info;
+  if (userSelectedAnswer == null) return "transparent";
+  if (index === respuestaCorrecta && userSelectedAnswer === respuestaCorrecta) return "transparent";
+  if (index === respuestaCorrecta) return "green";
+  if (index === userSelectedAnswer) return "red";
+  return "transparent";
+}
+
+
+
+
+
 const Questions = ({ info }: { info: QuestionType }) => {
   const selectopciones = useQuestionsStore((state) => state.selectopcines);
 
   const createHandleClick = (opcinesIndex: number) => () => {
     selectopciones(info.id, opcinesIndex);
   };
-
-  const getBackgroundColor = (info: QuestionType, index: number) => {
-    const { userSelectedAnswer, respuestaCorrecta } = info;
-    // usuario no ha seleccionado nada todavia
-    if (userSelectedAnswer == null) return "transparent";
-    // si ya selecciono pero la soluccion es incorrecta
-    if (index === respuestaCorrecta && index === userSelectedAnswer)
-      return "green";
-    // si esta es la solucion correcta
-    if (index === respuestaCorrecta) return "green";
-    // si esta es la seleccion del usuario pero no es correcta
-    if (index === userSelectedAnswer) return "red";
-    // si no es ninguna de las anteriores
-    return "transparent";
-  };
-
   return (
     <Card variant="outlined" sx={{ bgcolor: "#333", p: 2, textAlign: "left" }}>
       <Typography variant="h5">{info.pregunta}</Typography>
@@ -44,7 +41,10 @@ const Questions = ({ info }: { info: QuestionType }) => {
         {info.opciones.map((opciones, index) => (
           <ListItem key={index} disablePadding divider>
             <ListItemButton
+            disabled={info.userSelectedAnswer != null}
               onClick={createHandleClick(index)}
+
+
               sx={{
                 backgroundColor: getBackgroundColor(info, index),
               }}
